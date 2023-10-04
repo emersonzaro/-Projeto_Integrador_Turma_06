@@ -30,6 +30,7 @@ nav ul {
 
 div section {
     background-image: url("../img/Logo_Pacman.png");
+   
 }
 
 section {
@@ -37,8 +38,8 @@ section {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
-
+    flex-direction: row;   
+    inline-size: 52.33%;
 }
 
 .button {
