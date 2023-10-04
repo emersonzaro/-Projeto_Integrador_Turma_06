@@ -28,6 +28,10 @@ nav ul {
     height: 100%;
 }
 
+div section {
+    background-image: url("../img/Logo_Pacman.png");
+}
+
 section {
     display: flex;
     display: inline-flex;
