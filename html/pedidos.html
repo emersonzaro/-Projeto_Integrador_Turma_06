@@ -4,72 +4,65 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Seja bem-vindo a Retro Games! - Pedidos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&family=Roboto&display=swap" rel="stylesheet">
+  <script src="../js/scripts.js" defer></script>
+  <link rel="stylesheet" href="../css/style.css">
+  <title>Seja bem-vindo a Retro Games!</title>
 </head>
 
 <body>
   <header>
-    <img src="./img/header_logo.png" alt="Logo Retrogames" />
-    <img src="./img/menu.png" alt="Menu" />
-    <table>
-      <tr>
-        <td>
-          <img src="./img/cadastro.png" alt="Cadastro de Usuário" />
-        </td>
-        <td>
-          <img src="./img/produtos.png" alt="Produtos" />
-        </td>
-        <td>
-          <img src="./img/login.png" alt="Login do Usuário" />
-        </td>
-        <td>
-          <img src="./img/contato.png" alt="Contato" />
-        </td>
-        <td>
-          <img src="./img/pedidos.png" alt="Pedidos" />
-        </td>
-      </tr>
-    </table>
-    <ul>
-      <li><a href="./usuario.html">Usuário</a></li>
-      <li><a href="./produtos.html">Produtos</a></li>
-      <li><a href="./login.html"">Login</a></li>
-      <li><a href="./contato.html">Contato</a></li>
-      <li><a href="./pedidos.html">Pedidos</a></li>
-    </ul>
+    <nav>
+      <div class="fonte-01">
+        <img src="../img/header_logo.png" alt="Logo Retrogames" />
+        <table border="0" background="../img/menu.png">
+          <tr>
+            <td>
+              <ul>
+                <li><a href="./html/usuario.html" class="button">Usuário</a></li>
+                <li><a href="./html/produtos.html" class="button">Produtos</a></li>
+                <li><a href="./html/login.html" class="button">Login</a></li>
+                <li><a href="./html/contato/html" class="button">Contato</a></li>
+                <li><a href="./html/pedidos.html" class="button">Pedidos</a></li>
+              </ul>
+          </tr>
+          </td>
+        </table>
+      </div>
+    </nav>
   </header>
   <main>
-    <section>
-      <table border="2">
+    <section class="fonte-01">
+      <table border="0">
         <tr>
           <td>
-            <img src="./img/logo2.png" alt="Logo Retrogames 2" width="578" height="834" />
+            <img src="../img/logo2.png" alt="Logo Retrogames 2" width="578" height="834">
           </td>
-          <table border="1" align="center" width="51%">
-            <tr>
-              <td>
-                <strong>Cliente:&nbspTESTE</strong>
-              </td>
-              <td>
-                <strong>PEDIDO: 000435</strong>
-              </td>
-              <td>
-                <img src="./img/img_pedidos.png" align="right">
-              </td>
-            </tr>
-          </table>
-          <br>
           <table>
-            <table border="1" align="center" width="35%">
+            <table border="0" align="center" width="80%">
+              <td colspan="2">
+                <strong>Cliente: 12</strong><br><br>
+              </td>
+              <td colspan="2">
+                <strong>PEDIDO: 00043599 </strong><br><br>
+              </td>
+              <td>
+                <img src="../img/img_pedidos.png" align="right"><br><br>
+              </td>
               <tr style="height:55px">
-                <td style="width:10%">
-                  Quantidade:
+                <td style="width:100%">
+                  Quantidade:-------------------
                 </td>
                 <td style="width:60%">
-                  Produto:
+                  Produto:-------------------------------------------------
                 </td>
                 <td>
-                  Valor:
+                  Valor:---------------------------------------
                 </td>
               </tr>
               <tr style="height:40px">
@@ -79,7 +72,7 @@
                 <td style="width:60%">
                   Gameboy Classic
                 </td>
-                <td>
+                <td colspan="2">
                   R$ 450,00
                 </td>
               </tr>
@@ -90,7 +83,7 @@
                 <td style="width:60%">
                   Mega Drive JP
                 </td>
-                <td>
+                <td colspan="2">
                   R$ 600,00
                 </td>
               </tr>
@@ -101,7 +94,7 @@
                 <td style="width:60%">
                   Atari 2600 Completo
                 </td>
-                <td>
+                <td colspan="2">
                   R$ 490,00
                 </td>
               </tr>
@@ -112,7 +105,7 @@
                 <td style="width:60%">
                   Fonte Super Nintendo Original USA
                 </td>
-                <td>
+                <td colspan="2">
                   R$ 300,00
                 </td>
               </tr>
@@ -123,7 +116,7 @@
                 <td style="width:60%">
                   Sega Saturn JP
                 </td>
-                <td>
+                <td colspan="2">
                   R$ 800,00
                 </td>
               </tr>
@@ -132,9 +125,9 @@
                   01
                 </td>
                 <td style="width:60%">
-                  Play Statio Modelo FAT USA
+                  Play Station Modelo FAT USA
                 </td>
-                <td>
+                <td colspan="2">
                   R$ 450,00
                 </td>
               </tr>
@@ -154,10 +147,10 @@
                   &nbsp
                 </td>
                 <td style="width:60%" align="right">
-                  Total Pedido:
+                  <strong>Total do Pedido: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</strong>
                 </td>
-                <td>
-                  R$ 3.090,00
+                <td colspan="2">
+                  <font color="red"><strong>$ 3.090,00</strong></font>
                 </td>
               </tr>
               <tr style="height:40px">
@@ -165,25 +158,35 @@
                   &nbsp
                 </td>
                 <td style="width:60%" align="center">
-                  <img src="./img/btn_finalizar_pedido.png" alt="Fechar Pedido" />
+                  <br><br>
+                  <img src="../img/btn_finalizar_pedido.png" alt="Fechar Pedido" />
                 </td>
-                <td>
-                  &nbsp
-                </td>
+                <td></td>
               </tr>
-            </table>
-            <table border="0" align="center" width="51%">
               <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
                 <td>
-                  <img src="./img/carrinho.png" align="right">
+                  <img src="../img/carrinho.png" align="right">
                 </td>
               </tr>
             </table>
+          </table>
     </section>
     <br><br><br>
   </main>
   <footer>
-    <img src="./img/footer.png" alt="2023" />
+    <ul>
+      <li><a href="#">Visite-nos no Facebook</a>&nbsp;&nbsp;<img src="../img/icons8-facebook-16.png"
+          alt="Logo Retrogames 2" /></li>
+      <li><a href="#">Visite-nos no Instagram</a>&nbsp;&nbsp;<img src="../img/icons8-instagram-16.png"
+          alt="Logo Retrogames 2" /></li><br>
+      <strong>
+        <li>2023 Retrogames - Todos os direitos reservados.</li>
+      </strong>
+    </ul>
   </footer>
 </body>
 
