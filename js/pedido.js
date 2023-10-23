@@ -1,3 +1,10 @@
+//Se ja está na página, prevenir de ir novamente para ela
+let btnPedido = document.getElementById("btn-pedido");
+btnPedido.addEventListener("click", (e)=> {
+       e.preventDefault()
+       alert("Já está na página de pedidos.");
+});
+
 //Gerar Hint dos menus.
 $(document).ready(function() {
     // Tooltip only Text

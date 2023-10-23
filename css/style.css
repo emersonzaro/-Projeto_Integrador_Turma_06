@@ -40,8 +40,6 @@ section {
     justify-content: center;
     align-items: center;
     flex-direction: row;  
- 
-
 }
 
 .button {
@@ -57,6 +55,17 @@ section {
     margin: 4px 4px;
     cursor: pointer;
     box-sizing: border-box;
+}
+
+.tooltip {
+    display:none;
+    position:absolute;
+    border:1px solid #333;
+    background-color:#161616;
+    border-radius:5px;
+    padding:10px;
+    color:#fff;
+    font-size:12px Arial;
 }
 
 footer ul {
@@ -84,3 +93,4 @@ footer ul li {
 .fonte-02 {
     font-family: 'Maven Pro', sans-serif;
 }
+
