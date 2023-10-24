@@ -3,50 +3,53 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Seja bem-vindo a Retro Games! - Login</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&family=Roboto&display=swap" rel="stylesheet">
+  <script src="../js/scripts.js" defer></script>
+  <link rel="stylesheet" href="../css/style_login.css">
+  <title>Seja bem-vindo a Retro Games!</title>
 </head>
 <body>
   <header>
-    <img src="./img/header_logo.png" alt="Logo Retrogames" />
-    <img src="./img/menu.png" alt="Menu" />
-    <table>
-      <tr>
-        <td>
-          <img src="./img/cadastro.png" alt="Cadastro de Usuário" />
-        </td>
-        <td>
-          <img src="./img/produtos.png" alt="Produtos" />
-        </td>
-        <td>
-          <img src="./img/login.png" alt="Login do Usuário" />
-        </td>
-        <td>
-          <img src="./img/contato.png" alt="Contato" />
-        </td>
-        <td>
-          <img src="./img/pedidos.png" alt="Pedidos" />
-        </td>
-      </tr>
-    </table>
-    <ul>
-      <li><a href="#">Usuário</a></li>
-      <li><a href="#">Produtos</a></li>
-      <li><a href="#">Login</a></li>
-      <li><a href="#">Contato</a></li>
-      <li><a href="./pedidos.html">Pedidos</a></li>
-    </ul>
+    <nav>
+      <div class="fonte-01">
+        <img src="../img/header_logo.png" alt="Logo Retrogames" />
+        <table border="0" background="../img/menu.png">
+          <tr>
+            <td>
+              <ul>
+                <li><a href="../html/usuario.html" class="button">Usuário</a></li>
+                <li><a href="../html/produtos.html" class="button">Produtos</a></li>
+                <li><a href="../html/login.html" class="button">Login</a></li>
+                <li><a href="../html/contato/html" class="button">Contato</a></li>
+                <li><a href="../html/pedidos.html" class="button">Pedidos</a></li>
+              </ul>
+          </tr>
+          </td>
+
+        </table>
+
+      </div>
+    </nav>
   </header>
   <main>
-    <section>
-      <table border="2">
+    <section class="fonte-01">
+      <table border="0">
         <tr>
           <td>
-            <img src="./img/logo2.png" alt="Logo Retrogames 2" width="578" height="834" />
+            <img src="../img/logo2.png" alt="Logo Retrogames 2" width="578" height="834" />
           </td>
-          <table border="1" align="center" width="51%">
+        </tr>
+      </table>
+        <div class="login">
+          <table border="0" align="center" width="80%">
             <tr>
-              <td>
-                <img src="./img/img_login.png" align="right">
+              <td colspan="2">
+                <img src="../img/img_login.png" align="right">
               </td>
             </tr>
           </table>
@@ -64,25 +67,35 @@
           <table>
             <tr>
               <td>
-                <img src="./img/btn_enviar.png" alt="Enviar" />
+                <img src="../img/btn_enviar.png" alt="Enviar" />
               </td>
               <td>
-                <img src="./img/btn_reenviar_senha.png" alt="Reenviar senha" />
+                <img src="../img/btn_reenviar_senha.png" alt="Reenviar senha" />
               </td>
             </tr>
           </table>
           <table border="0" align="center" width="51%">
             <tr>
               <td>
-                <img src="./img/free-user-login-icon-305-thumb 1.png" align="right">
+                <img src="../img/free-user-login-icon-305-thumb 1.png" align="right">
               </td>
             </tr>
           </table>
+        </div>
   </section>
   <br><br><br>
   </main>
   <footer>
-    <img src="./img/footer.png" alt="2023" />
+    <ul>
+      <li><a href="#">Visite-nos no Facebook</a>&nbsp;&nbsp;<img src="../img/icons8-facebook-16.png"
+          alt="Logo Retrogames 2" /></li>
+      <li><a href="#">Visite-nos no Instagram</a>&nbsp;&nbsp;<img src="../img/icons8-instagram-16.png"
+          alt="Logo Retrogames 2" /></li><br>
+      <strong>
+        <li>2023 Retrogames - Todos os direitos reservados.</li>
+      </strong>
+    </ul>
   </footer>
 </body>
+
 </html>
