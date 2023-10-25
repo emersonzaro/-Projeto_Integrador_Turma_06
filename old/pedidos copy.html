@@ -11,25 +11,10 @@
 
   <link href="https://fonts.googleapis.com/css2?family=Maven+Pro&family=Roboto&display=swap" rel="stylesheet">
   <script src="../js/pedido.js" defer></script>
-
   <!--Mouseover and show Tooltip-->
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <link rel="stylesheet" href="../css/style_pedido.css">
+  <link rel="stylesheet" href="../css/style.css">
   <title>Seja bem-vindo a Retro Games!</title>
-
-  <!--Inputs sem flechas de seleção-->
-  <style>
-    input::-webkit-outer-spin-button,
-    input::-webkit-inner-spin-button {
-           -webkit-appearance: none;
-            margin: 0;
-    }
-
-    input[type=number] {
-        -moz-appearance: textfield;
-    }
-</style>
-
 </head>
 
 <body>
@@ -41,7 +26,6 @@
           <tr>
             <td>
               <ul>
-                <li><a href="../index.html" id="btn-home" class="button" title="Home">Home</a></li>
                 <li><a href="../html/usuario.html" id="btn-usuario" class="button" title="Usuário">Usuário</a></li>
                 <li><a href="../html/produtos.html" id="btn-produtos"class="button" title="Produtos">Produtos</a></li>
                 <li><a href="../html/login.html" id="btn-login" class="button" title="Login">Login</a></li>
@@ -84,81 +68,69 @@
                 </td>
               </tr>
               <tr style="height:40px">
-                <td>
-                  <button id="btn-subtrair-produto-01">-</button>
-                  <input id="quantidade-produto-01" type="number" value="1" min="0" size="7" onkeydown="preventKeyboardInput(event)">
-                  <button id="btn-adicionar-produto-01">+</button>
+                <td style="width:10%">
+                  01
                 </td>
                 <td style="width:60%">
                   Gameboy Classic
                 </td>
                 <td colspan="2">
-                  <p>R$ <span id="valor-produto-01" type="number" value="0"></span>,00</p>
+                  R$ 450,00
                 </td>
               </tr>
               <tr style="height:40px">
                 <td style="width:10%">
-                  <button id="btn-subtrair-produto-02">-</button>
-                  <input id="quantidade-produto-02" type="number" value="1" min="0" size="7" onkeydown="preventKeyboardInput(event)">
-                  <button id="btn-adicionar-produto-02">+</button>
+                  01
                 </td>
                 <td style="width:60%">
                   Mega Drive JP
                 </td>
                 <td colspan="2">
-                  <p>R$ <span id="valor-produto-02" type="number" value="0"></span>,00</p>
+                  R$ 600,00
                 </td>
               </tr>
               <tr style="height:40px">
                 <td style="width:10%">
-                  <button id="btn-subtrair-produto-03">-</button>
-                  <input id="quantidade-produto-03" type="number" value="1" min="0" size="7" onkeydown="preventKeyboardInput(event)">
-                  <button id="btn-adicionar-produto-03">+</button>
+                  01
                 </td>
                 <td style="width:60%">
                   Atari 2600 Completo
                 </td>
                 <td colspan="2">
-                  <p>R$ <span id="valor-produto-03" type="number" value="0"></span>,00</p>
+                  R$ 490,00
                 </td>
               </tr>
               <tr style="height:40px">
                 <td style="width:10%">
-                  <button id="btn-subtrair-produto-04">-</button>
-                  <input id="quantidade-produto-04" type="number" value="1" min="0" size="7" onkeydown="preventKeyboardInput(event)">
-                  <button id="btn-adicionar-produto-04">+</button>
+                  02
                 </td>
                 <td style="width:60%">
                   Fonte Super Nintendo Original USA
                 </td>
                 <td colspan="2">
-                  <p>R$ <span id="valor-produto-04" type="number" value="0"></span>,00</p>
+                  R$ 300,00
                 </td>
               </tr>
               <tr style="height:40px">
                 <td style="width:10%">
-                  <button id="btn-subtrair-produto-05">-</button>
-                  <input id="quantidade-produto-05" type="number" value="1" min="0" size="7" onkeydown="preventKeyboardInput(event)">
-                  <button id="btn-adicionar-produto-05">+</button>
+                  01
                 </td>
                 <td style="width:60%">
                   Sega Saturn JP
                 </td>
                 <td colspan="2">
-                  <p>R$ <span id="valor-produto-05" type="number" value="0"></span>,00</p>
+                  R$ 800,00
                 </td>
               </tr>
               <tr style="height:40px">
                 <td style="width:10%">
-                  <button id="btn-subtrair-produto-06">-</button>
-                  <input id="quantidade-produto-06" type="number" value="1" min="0" size="7" onkeydown="preventKeyboardInput(event)">
-                  <button id="btn-adicionar-produto-06">+</button>
+                  01
                 </td>
                 <td style="width:60%">
                   Play Station Modelo FAT USA
                 </td>
                 <td colspan="2">
-                  <p>R$ <span id="valor-produto-06" type="number" value="0"></span>,00</p>
+                  R$ 450,00
                 </td>
               </tr>
               <tr style="height:40px">
@@ -180,7 +152,7 @@
                   <strong>Total do Pedido: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</strong>
                 </td>
                 <td colspan="2">
-                  <font color="red"><strong id="valor-total">$ 3.090,00</strong></font>
+                  <font color="red"><strong>$ 3.090,00</strong></font>
                 </td>
               </tr>
               <tr style="height:40px">

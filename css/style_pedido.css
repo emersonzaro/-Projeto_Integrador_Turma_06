@@ -1,0 +1,96 @@
+/* body * {
+    border: 1px solid red;
+}
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: right;
+}
+
+table {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+div section {
+    background-image: url("../img/Logo_Pacman.png");
+    width: auto;   
+
+}
+
+section {
+    display: flex;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;  
+}
+
+.button {
+    background-color: #fafaf8;
+    border: 1px solid #222222;
+    border-color: rgb(8, 8, 8);
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 4px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.tooltip {
+    display:none;
+    position:absolute;
+    border:1px solid #333;
+    background-color:#161616;
+    border-radius:5px;
+    padding:10px;
+    color:#fff;
+    font-size:12px Arial;
+}
+
+footer ul {
+    background-image: url("../img/footer.png");
+    padding-bottom: 23px;
+    padding-top: 11px;
+    width: 100%;
+    margin-bottom: 13px;
+    background-repeat: no-repeat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+
+footer ul li {
+    margin-left: 20px;
+    padding: -1px;
+    list-style: none;
+
+}
+
+.fonte-01 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.fonte-02 {
+    font-family: 'Maven Pro', sans-serif;
+}
+
