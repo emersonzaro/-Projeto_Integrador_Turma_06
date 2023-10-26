@@ -77,9 +77,6 @@ let quantidadeProduto05 = document.getElementById ('quantidade-produto-05');
 let btnAdicionar6 = document.getElementById ('btn-adicionar-produto-06');
 let quantidadeProduto06 = document.getElementById ('quantidade-produto-06');
 
-let valorTotal = document.getElementById("valor-total");
-
-
 
 // Capturar elementos para subtrair a quantidade - 1 
 let btnSubtrair1 = document.getElementById ('btn-subtrair-produto-01');
@@ -236,3 +233,16 @@ btnSubtrair6.addEventListener("click", (subtrair6)=> {
               valorProduto06.innerText = "0";
        }        
 });
+
+let valorTotal = document.getElementById("valor-total");
+let btnFimPedido = document.getElementById("fechar-pedido");
+
+function totalPedido() {
+       total = (Number(valorProduto01.innerText) + Number(valorProduto02.innerText) + Number(valorProduto03.innerText) +
+                Number(valorProduto04.innerText) + Number(valorProduto05.innerText) + Number(valorProduto06.innerText));
+       valorTotal.innerHTML = total
+       alert("O seu pedido foi finalizado com o valor de " + "R$ " + total + ",00");
+}
+
+btnFimPedido.addEventListener("click", totalPedido);
+  
