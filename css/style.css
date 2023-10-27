@@ -1,11 +1,5 @@
-/* body * {
-    border: 1px solid red;
-}
-*/
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    text-align: center !important;
 }
 
 nav {
@@ -31,7 +25,6 @@ nav ul {
 div section {
     background-image: url("../img/Logo_Pacman.png");
     width: auto;   
-
 }
 
 section {
@@ -68,8 +61,8 @@ section {
     font-size:12px Arial;
 }
 
-footer ul {
-    background-image: url("../img/footer.png");
+footer ul {   
+    justify-content: center;
     padding-bottom: 23px;
     padding-top: 11px;
     width: 100%;

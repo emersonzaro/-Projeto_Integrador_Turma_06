@@ -1,11 +1,5 @@
-/* body * {
-    border: 1px solid red;
-}
-*/
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    text-align: center !important;
 }
 
 nav {
@@ -36,7 +30,6 @@ section {
     flex-direction: column;  
 }
 
-
 .button {
     background-color: #fafaf8;
     border: 1px solid #222222;
@@ -63,8 +56,7 @@ section {
     font-size:12px Arial;
 }
 
-footer ul {
-    background-image: url("../img/footer.png");
+footer ul {  
     padding-bottom: 23px;
     padding-top: 11px;
     width: 100%;
