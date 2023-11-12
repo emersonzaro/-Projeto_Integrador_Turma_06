@@ -57,24 +57,22 @@
               </tr>
           </table>
           <br><br><br>
-          <form>
-            <label for="Nome">Nome:</label>
-            <input type="text" id="Nome" placeholder="Ex: João Mendes" name="Nome">
-          </form>
-          <br><br><br>
-          <form>
-            <label for="Endereço">Endereço: </label>
-            <input type="text" id="Endereço" placeholder="Ex: Rua da Aurora, 136" address="Endereço">
-          </form>
-          <br><br><br>
-          <form>
-            <label for="E-mail">E-mail:</label>
-            <input type="text" id="E-mail" placeholder="Ex: joaomendes@gmail.com" email="E-mail">
-          </form>
-          <br><br><br>
-          <form>
-            <label for="Estado">Estado:</label>
-            <input type="text" id="Estado" placeholder="Ex: Minas Gerais" state="Estado">
+          <form class="moldura">
+            <label class="nlabel" for="Nome"><strong>Nome:</strong></label>
+            <input type="text" id="Nome" placeholder="Ex: João Mendes" name="Nome" minlength="5" autofocus pattern="^[A-Za-záàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ ]+$" required>
+            <label class="nomeLabel"></label>
+            <br><br>
+            <label class="elabel" for="Endereço"><strong>Endereço:</strong></label>
+            <input type="text" id="Endereço" placeholder="Ex: Rua da Aurora, 136" required address="Endereço">
+            <label class="enderecoLabel" id="elabel"></label>
+            <br><br>
+            <label class="mold" for="E-mail"><strong>E-mail:</strong></label>
+            <input type="email" id="E-mail" placeholder="Ex: joaomendes@gmail.com" required email="E-mail">
+            <label class="emailLabel"></label>
+            <br><br>
+            <label class="eslabel" for="Estado"><strong>Estado:</strong></label>
+            <input type="text" id="Estado" placeholder="Ex: Pernambuco" required state="Estado">
+            <label class="estadoLabel" id="eslabel"></label>
           </form>
           <br><br><br>
           <table>

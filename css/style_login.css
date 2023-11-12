@@ -2,6 +2,58 @@
     text-align: center !important;
 }
 
+label{
+    font-family: sans-serif;
+    font-size: 20px
+}
+
+#nlabel {
+    padding-right: 15px;
+}
+
+input {
+    border-radius: 5px;
+    border: 1px solid rgb(165, 142, 12);
+    padding: 0.8em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    background-color: #f7f7f7;
+    cursor: pointer;
+    transition: border-color 0.25s;
+  }
+
+  input:invalid {
+    box-shadow: 0 0 5px 1px red;
+  }
+
+  input:valid {
+    box-shadow: 0 0 5px 1px greenyellow;
+  }
+  
+  input:focus:invalid {
+    box-shadow: none;
+  }
+
+  input:invalid ~ .nomeLabel::after {
+    content: " (Campo obrigatório)";
+    font-size: 0.8em;
+    color: red;
+}
+  input:invalid ~ .senhaLabel::after {
+    content: " (Campo obrigatório)";
+    font-size: 0.8em;
+    color: red;
+}
+
+input:valid ~ .nomeLabel::after {
+    content: " \2713";
+    color: greenyellow;
+}
+input:valid ~ .senhaLabel::after {
+    content: " \2713";
+    color: greenyellow;
+}
+
 nav {
     display: flex;
     display: inline-flex;

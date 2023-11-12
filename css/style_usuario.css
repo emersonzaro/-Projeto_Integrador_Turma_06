@@ -2,6 +2,86 @@
     text-align: center !important;
 }
 
+label{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.nlabel{
+    padding-left: 95px;
+}
+
+#elabel {
+    padding-right: 30px;
+}
+
+#eslabel {
+    padding-right: 10px;
+}
+
+
+input {
+    border-radius: 5px;
+    border: 1px solid rgb(165, 142, 12);
+    padding: 0.8em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    background-color: #f7f7f7;
+    cursor: pointer;
+    transition: border-color 0.25s;
+  }
+  input:invalid {
+    box-shadow: 0 0 5px 1px red;
+  }
+
+  input:valid {
+    box-shadow: 0 0 5px 1px greenyellow;
+  }
+  
+  input:focus:invalid {
+    box-shadow: none;
+  }
+
+  input:invalid ~ .nomeLabel::after {
+    content: " (O nome deve ser apenas letras)";
+    font-size: 0.8em;
+    color: red;
+  }
+
+  input:invalid ~ .enderecoLabel::after {
+    content: " (Campo obrigatório)";
+    font-size: 0.8em;
+    color: red;
+}
+  input:invalid ~ .emailLabel::after {
+    content: " (Email é obrigatório)";
+    font-size: 0.8em;
+    color: red;
+}
+  input:invalid ~ .estadoLabel::after {
+    content: " (Campo obrigatório)";
+    font-size: 0.8em;
+    color: red;
+}
+
+input:valid ~ .nomeLabel::after {
+    content: " \2713";
+    color: greenyellow;
+    padding-right: 95px;
+}
+input:valid ~ .enderecoLabel::after {
+    content: " \2713";
+    color: greenyellow;
+}
+input:valid ~ .emailLabel::after {
+    content: " \2713";
+    color: greenyellow;
+}
+input:valid ~ .estadoLabel::after {
+    content: " \2713";
+    color: greenyellow;
+}
+
 nav {
     display: flex;
     display: inline-flex;
