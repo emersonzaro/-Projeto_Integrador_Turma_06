@@ -97,6 +97,11 @@ section {
     box-sizing: border-box;
 }
 
+.botaoEnv {
+    border-radius: 8%;
+    border-color: black;
+}
+
 .tooltip {
     display:none;
     position:absolute;

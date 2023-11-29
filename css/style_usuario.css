@@ -131,6 +131,11 @@ section {
     box-sizing: border-box;
 }
 
+.botaoEnv {
+    border-radius: 15%;
+    border-color: black;
+}
+
 .tooltip {
     display:none;
     position:absolute;

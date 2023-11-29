@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,6 +14,7 @@
   <link rel="stylesheet" href="../css/style_usuario.css">
   <title>Seja bem-vindo a Retro Games!</title>
 </head>
+
 <body>
   <header>
     <nav>
@@ -24,7 +26,7 @@
               <ul>
                 <li><a href="../index.html" id="btn-home" class="button" title="Home">Home</a></li>
                 <li><a href="../html/usuario.html" id="btn-usuario" class="button" title="Usuário">Usuário</a></li>
-                <li><a href="../img/Produtos.svg" id="btn-produtos"class="button" title="Produtos">Produtos</a></li>
+                <li><a href="../img/Produtos.svg" id="btn-produtos" class="button" title="Produtos">Produtos</a></li>
                 <li><a href="../html/login.html" id="btn-login" class="button" title="Login">Login</a></li>
                 <li><a href="../html/contato.html" id="btn-contato" class="button" title="Contato">Contato</a></li>
                 <li><a href="../html/pedidos.html" id="btn-pedido" class="button" title="Pedidos">Pedidos</a></li>
@@ -46,55 +48,61 @@
           </td>
         </tr>
       </table>
-        <div class="usuario">
-          <table border="0" align="center" width="80%">
-              <td colspan="2">
-                <img src="../img/img_usuario.png" align="right"><br><br>
-              </td>
-              <tr style="height:55px">
-                <td style="width:100%">
-                </td>
-              </tr>
-          </table>
-          <br><br><br>
-          <form class="moldura">
-            <label class="nlabel" for="Nome"><strong>Nome:</strong></label>
-            <input type="text" id="Nome" placeholder="Ex: João Mendes" name="Nome" minlength="5" autofocus pattern="^[A-Za-záàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ ]+$" required>
-            <label class="nomeLabel"></label>
-            <br><br>
-            <label class="elabel" for="Endereço"><strong>Endereço:</strong></label>
-            <input type="text" id="Endereço" placeholder="Ex: Rua da Aurora, 136" required address="Endereço">
-            <label class="enderecoLabel" id="elabel"></label>
-            <br><br>
-            <label class="mold" for="E-mail"><strong>E-mail:</strong></label>
-            <input type="email" id="E-mail" placeholder="Ex: joaomendes@gmail.com" required email="E-mail">
-            <label class="emailLabel"></label>
-            <br><br>
-            <label class="eslabel" for="Estado"><strong>Estado:</strong></label>
-            <input type="text" id="Estado" placeholder="Ex: Pernambuco" required state="Estado">
-            <label class="estadoLabel" id="eslabel"></label>
-          </form>
-          <br><br><br>
-          <table>
-            <tr>
-              <td>
-                <img src="../img/btn_enviar.png" alt="Enviar" />
-              </td>
-            </tr>
-          </table>
-          <table border="0" align="center" width="51%">
-            <tr>
-              <td>
-                <img src="../img/images 1.png" align="right">
-              </td>
-            </tr>
-          </table>
-        </div>
-  </section>
-  <br><br><br>
+      <div class="usuario">
+        <table border="0" align="center" width="80%">
+          <td colspan="2">
+            <img src="../img/img_usuario.png" align="right"><br><br>
+          </td>
+          <tr style="height:55px">
+            <td style="width:100%">
+            </td>
+          </tr>
+        </table>
+        <br><br><br>
+        <form class="moldura">
+          <label class="nlabel" for="Nome"><strong>Nome:</strong></label>
+          <input type="text" id="Nome" placeholder="Ex: João Mendes" name="Nome" minlength="5" autofocus
+            pattern="^[A-Za-záàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ ]+$" required>
+          <label class="nomeLabel"></label>
+          <br><br>
+          <label class="elabel" for="Endereço"><strong>Endereço:</strong></label>
+          <input type="text" id="Endereço" placeholder="Ex: Rua da Aurora, 136" required address="Endereço">
+          <label class="enderecoLabel" id="elabel"></label>
+          <br><br>
+          <label class="mold" for="E-mail"><strong>E-mail:</strong></label>
+          <input type="email" id="E-mail" placeholder="Ex: joaomendes@gmail.com" required email="E-mail">
+          <label class="emailLabel"></label>
+          <br><br>
+          <label class="eslabel" for="Estado"><strong>Estado:</strong></label>
+          <input type="text" id="Estado" placeholder="Ex: Pernambuco" required state="Estado">
+          <label class="estadoLabel" id="eslabel"></label>
+        </form>
+        <br><br><br>
+        <table>
+          <tr>
+            <td>
+              <input class="botaoEnv"  type="submit" style="
+                font-size: 1.3em;
+                color:#030303;
+                background-color: #E6CA52;
+                margin-right: 300px;
+                "></input type="submit">
+            </td>
+          </tr>
+        </table>
+        <table border="0" align="center" width="51%">
+          <tr>
+            <td>
+              <img style="margin-top: 100px; margin-right: 80px;" src="../img/images 1.png" align="right">
+            </td>
+          </tr>
+        </table>
+      </div>
+    </section>
+    <br><br><br>
   </main>
   <footer>
-    <img src="../img/footer.png" alt="Logo Retrogames 2"/>
+    <img src="../img/footer.png" alt="Logo Retrogames 2" />
     <ul>
       <li><a href="#">Visite-nos no Facebook</a>&nbsp;&nbsp;<img src="../img/icons8-facebook-16.png"
           alt="Logo Retrogames 2" /></li>
@@ -106,4 +114,5 @@
     </ul>
   </footer>
 </body>
+
 </html>
